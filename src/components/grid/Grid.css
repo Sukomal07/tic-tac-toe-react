@@ -1,0 +1,29 @@
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.trun-highlight {
+  color: white;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.reset {
+  all: unset;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: cyan;
+  font-size: 20px;
+  cursor: pointer;
+}
+.reset:hover {
+  background-color: rgba(0, 255, 255, 0.518);
+}

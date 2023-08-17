@@ -1,0 +1,14 @@
+.card {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f518;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.disabled {
+  cursor: not-allowed;
+}
